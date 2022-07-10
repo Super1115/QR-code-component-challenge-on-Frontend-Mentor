@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&family=Outfit:wght@400;700&display=swap');
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--Light-gray);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.df{
+    display: flex;
+}
+.aic{
+    align-items: center;
+}
+.jcc{
+    justify-content: center;
+}
+.card{
+    width: 320px;
+    height: 512px;
+    background: var(--White);
+    border-radius: 1.5em;
+    position: relative;
+    flex-direction: column;
+}
+.card > .QR_code_frame{
+    position: relative;
+    width: 18em;
+    height: 18em;
+}
+.card > .QR_code_frame > img{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+h1{
+    width: 18em;
+    margin: 1.5em;
+    max-width: 18em;
+    max-height: 6em;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+p{
+    width: 16em;
+    margin: 1.5em;
+    max-width: 18em;
+    max-height: 3em;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1em;
+}
