@@ -16,6 +16,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+### link
+- [Live URL](https://super1115.github.io/QR-code-component-challenge-on-Frontend-Mentor/)
+- [Solution URL](https://github.com/Super1115/QR-code-component-challenge-on-Frontend-Mentor)
+
 ### Author
 
 - Instagram - [@super_1115_](https://www.instagram.com/super_1115_/)
